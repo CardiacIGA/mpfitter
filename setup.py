@@ -14,6 +14,6 @@ setup(name     = 'ebdm',
       author   = 'Robin Willems, Lex Verberne',
       packages = ['ebdm'],
       description      = 'Error-Based-Deformation Method for multipatch geometries',
-      download_url     = 'https://gitlab.tue.nl/iga-heart-model/error-based-deformation-method/-/tree/main',
+      download_url     = 'https://github.com/CardiacIGA/multipatch-fitter/tree/main',
       long_description = long_description,
       zip_safe = False)
