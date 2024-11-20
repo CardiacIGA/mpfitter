@@ -1,6 +1,6 @@
-# Error Based Deformation Method
+# Multi-patch fitting algorithm
 
-This is the repository that contains the Error Based Deformation Method (EBDM), developed by L. Verberne and supervised by R. Willems, C.V. Verhoosel (TU/e) and O. van der Sluis (TU/e & Philips). The EBDM enables the user to fit or deform a predefined template geometry of the left ventricle to a sparse-point-cloud data set. 
+This is the repository that contains the multi-patch fitting algorithm, developed by R. Willems, in collaboration with L. Verberne and supervised by C.V. Verhoosel (TU/e) and O. van der Sluis (TU/e & Philips). The algorithm enables the user to fit or deform a predefined template geometry of the left ventricle to a sparse-point-cloud data set. 
 
 ## Installation
 
@@ -14,7 +14,7 @@ Future module updates: When new updates are pushed to the repository by the main
 
 ## Workflow (Echocardiogram fit) WILL BE MOVED TO ECHO-SEGMENTER
 
-The EBDM algorithm is designed to be applied to an arbitrary point cloud of the left ventricle. The point cloud can be of any density, i.e. dense or sparse, but should have a clear truncation at the base. in order to obtain a deformed or fitted geometry, the following workflow is designed:
+The algorithm is designed to be applied to an arbitrary point cloud of the left ventricle. The point cloud can be of any density, i.e. dense or sparse, but should have a clear truncation at the base. in order to obtain a deformed or fitted geometry, the following workflow is designed:
 
 1. Data selection (optional)
 It is common to first select a that will be segmented. For this project, we rely on echocardiogram (echo) data, but other high-resolution image data is also possible (not implemented in the segmentation folder). If a high-resolution point cloud is provided, skip step 1-3. The user is responsible for selecting an appropriate echo image that will be segmented
